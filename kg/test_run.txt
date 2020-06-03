@@ -1,0 +1,19 @@
+During Trump speech, Trump made little mention of the American death toll that has surpassed 80,000.
+Last week, Trump visited Arizona to tour a plant that manufactures face masks.
+According to CNN exit polling, Trump won about 28% of the Latino vote in 2016.
+Trump said at the March 14 and March 16 briefings that much of the media had been "very fair" in Trump coronavirus coverage
+Trump has blamed China for not warning the world sooner about the virus.
+Trump then attacked USPS, calling USPS "a joke" for losing money delivering packages for Amazon "and other internet companies."
+Trump then attacked USPS
+Trump has pushed states to lift Trump restrictions and hopes for an economic rebound by November's general election.
+================================suggest========================================
+Trump has openly sparred with Michigan's Democratic Gov.
+Trump heads to Michigan as Washington fails in pandemic battle.
+the World Health Organization declared a pandemic
+President Donald Trump's behavior, and the valet's diagnosis, raise obvious questions.
+================================fake new=======================================
+White House staffer who test positive 'will be fine'.
+
+
+
+#java -mx4g -cp "*" edu.stanford.nlp.pipeline.StanfordCoreNLPServer -port 9000 -timeout 15000

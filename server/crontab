@@ -1,0 +1,11 @@
+10 00 * * * source ~/.bashrc; source ~/.profile; export DISPLAY=:0; cd /home/ds-lab/Downloads/nlp_data_processing-master/runner/; /home/ds-lab/anaconda3/envs/fake_news/bin/python3 /home/ds-lab/Downloads/nlp_data_processing-master/runner/crawl_dailymail.py > logCront.txt 2>&1
+
+10 01 * * * source ~/.bashrc; source ~/.profile; export DISPLAY=:0; cd /home/ds-lab/Downloads/nlp_data_processing-master/runner/; /home/ds-lab/anaconda3/envs/fake_news/bin/python3 /home/ds-lab/Downloads/nlp_data_processing-master/runner/crawl_cnn.py > logCront.txt 2>&1
+
+10 02 * * * source ~/.bashrc; source ~/.profile; export DISPLAY=:0; cd /home/ds-lab/Downloads/nlp_data_processing-master/runner/; /home/ds-lab/anaconda3/envs/fake_news/bin/python3 /home/ds-lab/Downloads/nlp_data_processing-master/runner/foxnews.py > logCront.txt 2>&1
+
+10 03 * * * source .bashrc; source .profile; cd /home/hduser/extraction/dailymail/; nohup ./submit.sh >> logOld.txt 2>&1
+
+40 03 * * * source .bashrc; source .profile; cd /home/hduser/extraction/cnn/; nohup ./submit.sh > logOld.txt 2>&1
+
+10 04 * * * source .bashrc; source .profile; cd /home/hduser/extraction/news_fox/; nohup ./submit.sh >> logOld.txt 2>&1

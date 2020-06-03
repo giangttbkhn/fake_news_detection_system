@@ -1,0 +1,218 @@
+20/06/01 04:10:12 INFO spark.SparkContext: Running Spark version 2.2.0
+20/06/01 04:10:13 INFO spark.SparkContext: Submitted application: app
+20/06/01 04:10:13 INFO spark.SecurityManager: Changing view acls to: hduser
+20/06/01 04:10:13 INFO spark.SecurityManager: Changing modify acls to: hduser
+20/06/01 04:10:13 INFO spark.SecurityManager: Changing view acls groups to: 
+20/06/01 04:10:13 INFO spark.SecurityManager: Changing modify acls groups to: 
+20/06/01 04:10:13 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hduser); groups with view permissions: Set(); users  with modify permissions: Set(hduser); groups with modify permissions: Set()
+20/06/01 04:10:14 INFO util.Utils: Successfully started service 'sparkDriver' on port 38729.
+20/06/01 04:10:14 INFO spark.SparkEnv: Registering MapOutputTracker
+20/06/01 04:10:14 INFO spark.SparkEnv: Registering BlockManagerMaster
+20/06/01 04:10:14 INFO storage.BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/06/01 04:10:14 INFO storage.BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/06/01 04:10:14 INFO storage.DiskBlockManager: Created local directory at /tmp/blockmgr-84d7daed-b285-4b1a-8478-5ee9245a8454
+20/06/01 04:10:14 INFO memory.MemoryStore: MemoryStore started with capacity 1216.4 MB
+20/06/01 04:10:15 INFO spark.SparkEnv: Registering OutputCommitCoordinator
+20/06/01 04:10:15 INFO util.log: Logging initialized @11268ms
+20/06/01 04:10:15 INFO server.Server: jetty-9.3.z-SNAPSHOT
+20/06/01 04:10:15 INFO server.Server: Started @11457ms
+20/06/01 04:10:15 INFO server.AbstractConnector: Started ServerConnector@3b247097{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+20/06/01 04:10:15 INFO util.Utils: Successfully started service 'SparkUI' on port 4040.
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@3efcc0e4{/jobs,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@9dbad07{/jobs/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4d4818ca{/jobs/job,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6aa55b65{/jobs/job/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@27461927{/stages,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4a169f0f{/stages/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@efe80dc{/stages/stage,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@6cb1c807{/stages/stage/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@12d09c64{/stages/pool,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c6f1641{/stages/pool/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@732360b3{/storage,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@9db3f9d{/storage/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@33df48ef{/storage/rdd,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@79dbbf74{/storage/rdd/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@67225fa5{/environment,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@8118721{/environment/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4c6c8d3f{/executors,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@493abc9b{/executors/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@69cf9715{/executors/threadDump,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@8729a68{/executors/threadDump/json,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@4b5f369f{/static,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@656d5ca5{/,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@2cbbc323{/api,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@db9bec9{/jobs/job/kill,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@7c98d024{/stages/stage/kill,null,AVAILABLE,@Spark}
+20/06/01 04:10:15 INFO ui.SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.4.50:4040
+20/06/01 04:10:17 INFO client.RMProxy: Connecting to ResourceManager at master/192.168.4.50:8032
+20/06/01 04:10:17 INFO yarn.Client: Requesting a new application from cluster with 2 NodeManagers
+20/06/01 04:10:17 INFO yarn.Client: Verifying our application has not requested more than the maximum memory capability of the cluster (5632 MB per container)
+20/06/01 04:10:17 INFO yarn.Client: Will allocate AM container, with 1408 MB memory including 384 MB overhead
+20/06/01 04:10:17 INFO yarn.Client: Setting up container launch context for our AM
+20/06/01 04:10:17 INFO yarn.Client: Setting up the launch environment for our AM container
+20/06/01 04:10:17 INFO yarn.Client: Preparing resources for our AM container
+20/06/01 04:10:19 WARN yarn.Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/06/01 04:10:23 INFO yarn.Client: Uploading resource file:/tmp/spark-d1bd0c14-a9ea-4dcb-9d86-af897aac538a/__spark_libs__7644593348365869036.zip -> hdfs://master:9001/user/hduser/.sparkStaging/application_1590663479322_0016/__spark_libs__7644593348365869036.zip
+20/06/01 04:10:42 INFO yarn.Client: Uploading resource file:/home/hduser/environment.tar.gz#environment -> hdfs://master:9001/user/hduser/.sparkStaging/application_1590663479322_0016/environment.tar.gz
+20/06/01 04:11:00 INFO yarn.Client: Uploading resource file:/home/hduser/spark/python/lib/pyspark.zip -> hdfs://master:9001/user/hduser/.sparkStaging/application_1590663479322_0016/pyspark.zip
+20/06/01 04:11:01 INFO yarn.Client: Uploading resource file:/home/hduser/spark/python/lib/py4j-0.10.4-src.zip -> hdfs://master:9001/user/hduser/.sparkStaging/application_1590663479322_0016/py4j-0.10.4-src.zip
+20/06/01 04:11:01 INFO yarn.Client: Uploading resource file:/tmp/spark-d1bd0c14-a9ea-4dcb-9d86-af897aac538a/__spark_conf__4821638274348631661.zip -> hdfs://master:9001/user/hduser/.sparkStaging/application_1590663479322_0016/__spark_conf__.zip
+20/06/01 04:11:01 INFO spark.SecurityManager: Changing view acls to: hduser
+20/06/01 04:11:01 INFO spark.SecurityManager: Changing modify acls to: hduser
+20/06/01 04:11:01 INFO spark.SecurityManager: Changing view acls groups to: 
+20/06/01 04:11:01 INFO spark.SecurityManager: Changing modify acls groups to: 
+20/06/01 04:11:01 INFO spark.SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(hduser); groups with view permissions: Set(); users  with modify permissions: Set(hduser); groups with modify permissions: Set()
+20/06/01 04:11:01 INFO yarn.Client: Submitting application application_1590663479322_0016 to ResourceManager
+20/06/01 04:11:01 INFO impl.YarnClientImpl: Submitted application application_1590663479322_0016
+20/06/01 04:11:01 INFO cluster.SchedulerExtensionServices: Starting Yarn extension services with app application_1590663479322_0016 and attemptId None
+20/06/01 04:11:02 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:02 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1590959461393
+	 final status: UNDEFINED
+	 tracking URL: http://master:8088/proxy/application_1590663479322_0016/
+	 user: hduser
+20/06/01 04:11:03 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:04 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:05 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:06 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:07 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:08 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:09 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:10 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:11 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:12 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:13 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:14 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:15 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:16 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:17 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:18 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:19 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:20 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:21 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:22 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:23 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:24 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:25 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:26 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:27 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:28 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:29 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:30 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:31 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:32 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:33 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:34 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:35 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:36 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:37 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:38 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:39 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:40 INFO yarn.Client: Application report for application_1590663479322_0016 (state: ACCEPTED)
+20/06/01 04:11:40 INFO cluster.YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/06/01 04:11:40 INFO cluster.YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> master, PROXY_URI_BASES -> http://master:8088/proxy/application_1590663479322_0016), /proxy/application_1590663479322_0016
+20/06/01 04:11:40 INFO ui.JettyUtils: Adding filter: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/06/01 04:11:41 INFO yarn.Client: Application report for application_1590663479322_0016 (state: RUNNING)
+20/06/01 04:11:41 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.4.233
+	 ApplicationMaster RPC port: 0
+	 queue: default
+	 start time: 1590959461393
+	 final status: UNDEFINED
+	 tracking URL: http://master:8088/proxy/application_1590663479322_0016/
+	 user: hduser
+20/06/01 04:11:41 INFO cluster.YarnClientSchedulerBackend: Application application_1590663479322_0016 has started running.
+20/06/01 04:11:41 INFO util.Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40867.
+20/06/01 04:11:41 INFO netty.NettyBlockTransferService: Server created on 192.168.4.50:40867
+20/06/01 04:11:41 INFO storage.BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/06/01 04:11:41 INFO storage.BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.4.50, 40867, None)
+20/06/01 04:11:41 INFO storage.BlockManagerMasterEndpoint: Registering block manager 192.168.4.50:40867 with 1216.4 MB RAM, BlockManagerId(driver, 192.168.4.50, 40867, None)
+20/06/01 04:11:41 INFO storage.BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.4.50, 40867, None)
+20/06/01 04:11:41 INFO storage.BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.4.50, 40867, None)
+20/06/01 04:11:41 INFO handler.ContextHandler: Started o.s.j.s.ServletContextHandler@12214b25{/metrics/json,null,AVAILABLE,@Spark}
+20/06/01 04:11:41 INFO scheduler.EventLoggingListener: Logging events to hdfs://master:9001/user/hduser/spark-logs/application_1590663479322_0016
+20/06/01 04:11:41 INFO cluster.YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000(ms)
+20/06/01 04:11:43 INFO memory.MemoryStore: Block broadcast_0 stored as values in memory (estimated size 284.8 KB, free 1216.1 MB)
+20/06/01 04:11:43 INFO memory.MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.3 KB, free 1216.1 MB)
+20/06/01 04:11:43 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.4.50:40867 (size: 23.3 KB, free: 1216.4 MB)
+20/06/01 04:11:43 INFO spark.SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+20/06/01 04:11:43 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+20/06/01 04:11:43 INFO mapred.FileInputFormat: Total input paths to process : 15
+20/06/01 04:11:43 INFO spark.SparkContext: Starting job: saveAsTextFile at NativeMethodAccessorImpl.java:0
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Got job 0 (saveAsTextFile at NativeMethodAccessorImpl.java:0) with 15 output partitions
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Final stage: ResultStage 0 (saveAsTextFile at NativeMethodAccessorImpl.java:0)
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Parents of final stage: List()
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Missing parents: List()
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[4] at saveAsTextFile at NativeMethodAccessorImpl.java:0), which has no missing parents
+20/06/01 04:11:43 INFO memory.MemoryStore: Block broadcast_1 stored as values in memory (estimated size 77.5 KB, free 1216.0 MB)
+20/06/01 04:11:43 INFO memory.MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 30.3 KB, free 1216.0 MB)
+20/06/01 04:11:43 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.4.50:40867 (size: 30.3 KB, free: 1216.3 MB)
+20/06/01 04:11:43 INFO spark.SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1006
+20/06/01 04:11:43 INFO scheduler.DAGScheduler: Submitting 15 missing tasks from ResultStage 0 (MapPartitionsRDD[4] at saveAsTextFile at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+20/06/01 04:11:43 INFO cluster.YarnScheduler: Adding task set 0.0 with 15 tasks
+20/06/01 04:11:45 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.4.233:60758) with ID 2
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, slave3, executor 2, partition 0, NODE_LOCAL, 4994 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, slave3, executor 2, partition 1, NODE_LOCAL, 4937 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 0.0 (TID 2, slave3, executor 2, partition 2, NODE_LOCAL, 4974 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 0.0 (TID 3, slave3, executor 2, partition 3, NODE_LOCAL, 4974 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 0.0 (TID 4, slave3, executor 2, partition 4, NODE_LOCAL, 4938 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 0.0 (TID 5, slave3, executor 2, partition 5, NODE_LOCAL, 4934 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 0.0 (TID 6, slave3, executor 2, partition 6, NODE_LOCAL, 4946 bytes)
+20/06/01 04:11:45 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 0.0 (TID 7, slave3, executor 2, partition 7, NODE_LOCAL, 4969 bytes)
+20/06/01 04:11:45 INFO storage.BlockManagerMasterEndpoint: Registering block manager slave3:42259 with 2.4 GB RAM, BlockManagerId(2, slave3, 42259, None)
+20/06/01 04:11:45 INFO storage.BlockManagerInfo: Added broadcast_1_piece0 in memory on slave3:42259 (size: 30.3 KB, free: 2.4 GB)
+20/06/01 04:11:45 INFO storage.BlockManagerInfo: Added broadcast_0_piece0 in memory on slave3:42259 (size: 23.3 KB, free: 2.4 GB)
+20/06/01 04:11:50 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 0.0 (TID 8, slave3, executor 2, partition 8, NODE_LOCAL, 4965 bytes)
+20/06/01 04:11:51 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 0.0 (TID 2) in 5838 ms on slave3 (executor 2) (1/15)
+20/06/01 04:12:01 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 0.0 (TID 9, slave3, executor 2, partition 9, NODE_LOCAL, 4941 bytes)
+20/06/01 04:12:01 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 0.0 (TID 3) in 15881 ms on slave3 (executor 2) (2/15)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 0.0 (TID 10, slave3, executor 2, partition 10, NODE_LOCAL, 4922 bytes)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 0.0 (TID 8) in 22210 ms on slave3 (executor 2) (3/15)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Starting task 11.0 in stage 0.0 (TID 11, slave3, executor 2, partition 11, NODE_LOCAL, 4941 bytes)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 0.0 (TID 7) in 28463 ms on slave3 (executor 2) (4/15)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Starting task 12.0 in stage 0.0 (TID 12, slave3, executor 2, partition 12, NODE_LOCAL, 4933 bytes)
+20/06/01 04:12:13 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 28722 ms on slave3 (executor 2) (5/15)
+20/06/01 04:12:16 INFO scheduler.TaskSetManager: Starting task 13.0 in stage 0.0 (TID 13, slave3, executor 2, partition 13, NODE_LOCAL, 4959 bytes)
+20/06/01 04:12:16 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 31341 ms on slave3 (executor 2) (6/15)
+20/06/01 04:12:23 INFO scheduler.TaskSetManager: Starting task 14.0 in stage 0.0 (TID 14, slave3, executor 2, partition 14, NODE_LOCAL, 4941 bytes)
+20/06/01 04:12:23 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 0.0 (TID 5) in 38830 ms on slave3 (executor 2) (7/15)
+20/06/01 04:12:24 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 0.0 (TID 9) in 23770 ms on slave3 (executor 2) (8/15)
+20/06/01 04:12:26 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 0.0 (TID 6) in 41158 ms on slave3 (executor 2) (9/15)
+20/06/01 04:12:27 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.4.164:35640) with ID 1
+20/06/01 04:12:27 INFO storage.BlockManagerMasterEndpoint: Registering block manager slave1:44797 with 2.4 GB RAM, BlockManagerId(1, slave1, 44797, None)
+20/06/01 04:12:27 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 0.0 (TID 4) in 42741 ms on slave3 (executor 2) (10/15)
+20/06/01 04:12:30 INFO scheduler.TaskSetManager: Finished task 12.0 in stage 0.0 (TID 12) in 16296 ms on slave3 (executor 2) (11/15)
+20/06/01 04:12:30 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 0.0 (TID 10) in 17264 ms on slave3 (executor 2) (12/15)
+20/06/01 04:12:30 INFO scheduler.TaskSetManager: Finished task 13.0 in stage 0.0 (TID 13) in 14227 ms on slave3 (executor 2) (13/15)
+20/06/01 04:12:31 INFO scheduler.TaskSetManager: Finished task 11.0 in stage 0.0 (TID 11) in 17843 ms on slave3 (executor 2) (14/15)
+20/06/01 04:12:34 INFO scheduler.TaskSetManager: Finished task 14.0 in stage 0.0 (TID 14) in 10849 ms on slave3 (executor 2) (15/15)
+20/06/01 04:12:34 INFO cluster.YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+20/06/01 04:12:34 INFO scheduler.DAGScheduler: ResultStage 0 (saveAsTextFile at NativeMethodAccessorImpl.java:0) finished in 51.353 s
+20/06/01 04:12:34 INFO scheduler.DAGScheduler: Job 0 finished: saveAsTextFile at NativeMethodAccessorImpl.java:0, took 51.455588 s
+20/06/01 04:12:36 INFO spark.SparkContext: Invoking stop() from shutdown hook
+20/06/01 04:12:36 INFO server.AbstractConnector: Stopped Spark@3b247097{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+20/06/01 04:12:36 INFO ui.SparkUI: Stopped Spark web UI at http://192.168.4.50:4040
+20/06/01 04:12:36 INFO cluster.YarnClientSchedulerBackend: Interrupting monitor thread
+20/06/01 04:12:36 INFO cluster.YarnClientSchedulerBackend: Shutting down all executors
+20/06/01 04:12:36 INFO cluster.YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/06/01 04:12:36 INFO cluster.SchedulerExtensionServices: Stopping SchedulerExtensionServices
+(serviceOption=None,
+ services=List(),
+ started=false)
+20/06/01 04:12:36 INFO cluster.YarnClientSchedulerBackend: Stopped
+20/06/01 04:12:36 INFO spark.MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/06/01 04:12:36 INFO memory.MemoryStore: MemoryStore cleared
+20/06/01 04:12:36 INFO storage.BlockManager: BlockManager stopped
+20/06/01 04:12:36 INFO storage.BlockManagerMaster: BlockManagerMaster stopped
+20/06/01 04:12:36 INFO scheduler.OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/06/01 04:12:36 INFO spark.SparkContext: Successfully stopped SparkContext
+20/06/01 04:12:36 INFO util.ShutdownHookManager: Shutdown hook called
+20/06/01 04:12:36 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-d1bd0c14-a9ea-4dcb-9d86-af897aac538a/pyspark-c602129f-54b0-4d67-8974-017784051119
+20/06/01 04:12:36 INFO util.ShutdownHookManager: Deleting directory /tmp/spark-d1bd0c14-a9ea-4dcb-9d86-af897aac538a
